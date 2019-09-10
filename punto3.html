@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        hombre=0
+        mujeres=0
+        for(i=0;i<10;i++){
+    a=prompt("digite su nombre");
+    sexo=parseInt(prompt("digite 1 si es femenino digite 2 si es masculino"));
+    dinero=parseInt(prompt("digite su sueldo"));
+    if(sexo==1){
+     if(dinero>500){
+         mujeres++;
+     }
+    }else if(sexo==2){
+        if(dinero<400){
+            hombre++;
+        }
+    }
+        }
+     console.log("las mujeres que tiene un sueldo mayor 500:"+mujeres)
+     console.log("los hombres que ganan menos de 400:"+hombre)
+     
+        
+    </script>
+</body>
+</html>

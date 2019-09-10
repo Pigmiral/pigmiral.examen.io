@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    mayor=0
+    menos=0
+    a=prompt("digite la cantidad de persona que desea registrar")
+    for(i=0;i<a;i++){
+    peso=parseInt(prompt("digite su peso en kg"));
+     if(peso>80){
+     mayor++;
+     }else if(peso<80){
+         menos++;
+     }
+    }
+    console.log("las persona que pesan mas de 80kg:"+mayor)
+    console.log("las que pesan menos de 80kg:"+menos)
+    
+    
+    
+    </script>
+</body>
+</html>

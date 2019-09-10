@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    miarray=[];
+    par=0
+    impar=0
+   a=parseInt(prompt("digite la cantidad de numeros "));
+   for(i=0;i<a;i++){
+       b=parseInt(prompt("digite un numero"))
+       miarray.push(b);
+      
+   }
+   for(i=0;i<a;i++){
+    if(miarray[i]%2==0){
+         par++;
+       }
+      if(miarray[i]%2==1){
+          impar++;
+      } 
+   }
+    console.log("la cantida de par que hay son:"+par)
+    console.log("la cantidad de numeros impares:"+impar)
+    </script>
+</body>
+</html>
